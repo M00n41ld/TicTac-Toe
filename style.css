@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .game {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-auto-rows: 300px;
+    gap: 10px;
+    margin: auto;
+    width: 920px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .cell {
+    background-color: #3535ec;
+  }
+  
+  .symbol {
+    color: white;
+    font-size: 200px;
+    text-align: center;
+  }
+  
+  .banner {
+    position: absolute;
+    background-color: pink;
+    width: 920px;
+    height: 400px;
+    margin-top: 260px;
+    opacity: 0.7;
+  }
+  
+  .banner h1 {
+    text-align: center;
+    line-height: 400px;
+    font-size: 60px;
+  }
+  
