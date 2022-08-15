@@ -47,7 +47,7 @@ const state = {
                 }
   
                 else if (checkForDraw()) {
-                    drawMessage('Non of you won!')
+                    drawMessage('None of you won!')
                     state.gameFinished = true
                 }
             })
